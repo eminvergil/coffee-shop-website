@@ -23,7 +23,7 @@ export default class navbar extends Component {
   }
   
   navbarHandler = () =>{
-      console.log("hello");
+    this.state.navbarOpen ? this.setState({navbarOpen:false,css:"collapse navbar-collapse"}) : this.setState({navbarOpen:true,css:"navbar navbar-collapse show"});
   }
 
   render() {
@@ -47,9 +47,11 @@ export default class navbar extends Component {
                     {link.text}
                   </Link>
                 </li>
-              )
-            })
-          }
+              );
+            })}
+            <li className="nav-item ml-sm-3">
+            <FaCartArrowDown className="cart-icon"/>
+            </li>
           </ul>
         </div>
       </nav>

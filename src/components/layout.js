@@ -17,7 +17,7 @@ import Navbar from "./Globals/navbar";
 
 const Layout = ({ children }) => 
 <>
-  <Navbar/>
+  <Navbar/>  
   {children}
 </>;
 
