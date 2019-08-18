@@ -5,11 +5,17 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import BackgroundSection from "../components/Globals/background";
+import Info from "../components/Home/info";
 
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="coffee shop" styleClass="default-background"/>
+    <BackgroundSection 
+    img={data.img.childImageSharp.fluid} 
+    title="coffee shop" 
+    // styleClass="default-background"
+    />
+    <Info/>
   </Layout>
 )
 
