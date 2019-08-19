@@ -8,7 +8,7 @@ export default function info() {
     <section className="py-5">
       <div className="container">
         <Title
-        title="Some Title"
+        title="OUR STORY"
         />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
