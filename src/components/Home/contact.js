@@ -1,8 +1,6 @@
 import React from 'react';
 import Title from "../Globals/title";
 
-
-
 export default function contact() {
   return (
     <section className="contact py-5">

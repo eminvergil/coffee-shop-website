@@ -48,6 +48,13 @@ module.exports = {
         googleAdClientId: process.env.GOOGLE_ID,
         head: true // Optional
       }
-    }
+    },
+    {
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+        apiKey: process.env.SNIPCART_ID,
+        autopop: true
+			}
+		}
   ],
 }

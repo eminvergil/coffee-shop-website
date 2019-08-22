@@ -10,7 +10,14 @@ export default function product({ product }) {
         <div className="card-body text-center">
           <h6>{product.title}</h6>
           <h5>${product.price}</h5>
-          <button type="button" className="btn btn-yellow mt-3 text-capitalize">
+          <button 
+            type="button" 
+            className="btn btn-yellow mt-3 text-capitalize snipcart-add-item"
+            data-item-id={product.id}
+            data-item-name={product.title}
+            data-item-price={product.price}
+            data-item-image={product.image.fluid.src}
+            data-item-url="https://kahvedunyasi.netlify.com/">
             add to cart
           </button>
         </div>
