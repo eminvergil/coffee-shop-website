@@ -74,7 +74,8 @@ export default class menu extends Component {
                           {node.title}
                           </small>
                           </h6>
-                          <h6 className="mb-0 text-yellow">
+                          <h6 className="mb-0"> 
+                          {/* text-yellow removed */}
                           <small>
                           ${node.price}
                           </small>

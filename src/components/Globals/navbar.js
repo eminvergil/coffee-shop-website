@@ -19,6 +19,11 @@ export default class navbar extends Component {
         path:"/about",
         text:"about"
       }
+      // {
+      //   id:3,
+      //   path:"",
+      //   text:"Concat"
+      // }
     ]
   }
   
